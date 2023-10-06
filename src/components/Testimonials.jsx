@@ -20,8 +20,8 @@ const Testimonials = () => {
   return (
     <div className="testimonials">
          <div className="flex gap-2 mb-4 md:mb-0">
-        <button onClick={prevCard}><AiOutlineArrowUp className='bg-[#318160] rounded-lg'/></button>
-        <button onClick={nextCard}><AiOutlineArrowDown className='bg-[#318160]  rounded-lg'/></button>
+        <button onClick={prevCard}><AiOutlineArrowUp style={{fontSize:"22px", padding:"1px"}} className='bg-[#318160] rounded-lg'/></button>
+        <button onClick={nextCard}><AiOutlineArrowDown style={{fontSize:"22px", padding:"1px"}} className='bg-[#318160]  rounded-lg'/></button>
       </div>
       <div className="bg-[#1E1D1E] md:w-6/12 w-full mx-auto h-max p-4 items-center rounded-lg text-gray-300">
       <p className='text-yellow-500'>Rating : {testimonialData[currentIndex].rating}</p>

@@ -9,7 +9,7 @@ const Section3 = () => {
         <div className='flex md:flex-row flex-col items-center py-2'>
           <div className='flex-1'>
             <div className='px-6 py-2 bg-[#14211F] text-[#318160] w-max font-medium'>Expedition</div>
-            <div className='w-8/12 text-2xl py-3 font-medium'>We Provide Expedition Rare Experience</div>
+            <div className='md:w-8/12 w-full text-2xl py-3 font-medium'>We Provide Expedition Rare Experience</div>
           </div>
           <div className='flex-1'>
             <div className=' text-sm text-gray-600'>Explore all over the world to see and know more about the beauty of flora and fauna. We provide a rare expedition experience that you have never felt before.</div>

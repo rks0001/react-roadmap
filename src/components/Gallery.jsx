@@ -24,11 +24,11 @@ const Gallery = () => {
   }, []);
 
   return (
-<div className="h-[60vh] ">
+<div className="h-[60vh]  ">
 <img
         src={imageUrls[currentIndex]}
         alt="images"
-        className="w-full h-full object-cover rounded-xl"
+        className="w-full h-full object-cover rounded-xl "
       />
 </div>
       

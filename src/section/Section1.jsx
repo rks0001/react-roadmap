@@ -10,11 +10,11 @@ const Section1 = () => {
         <div className=' p-10 pb-2 pt-6 relative'>
           <Gallery />
           
-        <div className=' bg-gradient-to-r opacity-90 from-[#0F1016] h-full absolute md:p-20 p-14 top-0 left-0  w-full text-4xl font-bold md:text-6xl tracking-tight md:font-semibold '>
-          READY TO EXPLORE THE BEAUTY OF THE WORLD
-          <div className='md:px-20 px-14 absolute left-0  md:w-9/12 w-full text-base md:text-lg font-normal tracking-normal text-[#f1f1f1]'>
+        <div className='  h-full absolute md:p-20 p-14 top-0 left-0 flex items-center md:w-10/12  w-full text-[6vh] font-bold md:text-[10vh]  md:font-semibold leading-none'>
+          READY TO EXPLORE THE BEAUTY OF THE WORLD 
+          <p className='hidden md:px-20 px-14 relative left-0  md:w-9/12 w-full text-base md:text-lg font-normal tracking-normal text-[#f1f1f1]'>
           Boost and lift your mood with a vacation
-        </div>
+        </p>
         </div>
         
           <p className='text-sm md:text-lg font-medium pt-2 text-[#f1f1f1] justify-center'>

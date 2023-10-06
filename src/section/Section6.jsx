@@ -15,7 +15,7 @@ const Section6 = () => {
            <Accordion question='Register for expedition trip' answer='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique possimus iusto, perferendis autem earum consequuntur aliquam exercitationem dolore repudiandae sunt hic, libero ratione aliquid! Ullam quasi sequi libero blanditiis beatae.'/>
            <Accordion question='Safety and Loss Guarantee' answer='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique possimus iusto, perferendis autem earum consequuntur aliquam exercitationem dolore repudiandae sunt hic, libero ratione aliquid! Ullam quasi sequi libero blanditiis beatae.'/>
             </div>
-            <div className='flex-1 pt-2 md:pt-0 p-4 md:p-10 '>
+            <div className='flex-1 pt-2 md:pt-0 p-4 md:p-20 '>
             <img src={image1} alt="faq"/>
             </div>
         </div>

@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='w-10/12 h-full mx-auto flex flex-row'>
             <div className='flex-1 mr-10 '>
             <div className='font-semibold text-lg'>ithvaraa</div>
-            <div className='text-xs md:w-8/12 py-2'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium similique dolorum consequatur harum voluptas. Sit quaerat incidunt nam qui error</div>
+            <div className='text-xs md:w-8/12 py-2'>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
             <div className='flex flex-row gap-3 pb-4'>
             <AiFillFacebook/>
             <AiOutlineInstagram/>

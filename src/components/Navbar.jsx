@@ -43,7 +43,7 @@ const Navbar = () => {
   return (
     <div className='w-full h-full dark'>
  <div className="w-10/12 m-auto dark flex flex-row justify-between items-center py-6 px-2 md:px-8">
-      <Link className='z-30' to="/"> <div className="font-semibold text-2xl ">ithvaraa</div></Link>
+      <Link onClick={() => closeMenu()} className='z-30' to="/"> <div className="font-semibold text-2xl ">ithvaraa</div></Link>
 
       {window.innerWidth <= 768 && (
         <div className="md:hidden z-30" onClick={() => handleMenu()}>

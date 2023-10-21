@@ -1,26 +1,47 @@
 import React from 'react';
-import Gallery from '../components/Gallery';
+import {DiReact} from 'react-icons/di'
 
 const Section1 = () => {
   return (
-    <div className='w-full h-full relative '>
-      <div className='md:w-10/12 w-full mx-auto'>
-       
-        {/* Images */}
-        <div className=' p-10 pb-2 pt-6 relative'>
-          <Gallery />
+    <div className='w-full min-h-screen  '>
+      <div className='w-10/12 h-full mx-auto md:px-10'>
+      <div className='flex flex-col  md:flex-row justify-center py-10'>
+        <div className='my-auto'>
+        <div className='text-2xl font-bold text-center'>
+          Now Learn React with these 3 questions -
           
-        <div className='  h-full absolute md:p-20 p-14 top-0 left-0 flex items-center md:w-10/12  w-full text-[6vh] font-bold md:text-[10vh]  md:font-semibold leading-none'>
-          READY TO EXPLORE THE BEAUTY OF THE WORLD 
-          <p className='hidden md:px-20 px-14 relative left-0  md:w-9/12 w-full text-base md:text-lg font-normal tracking-normal text-[#f1f1f1]'>
-          Boost and lift your mood with a vacation
-        </p>
+        </div>
+        <div className='flex justify-center items-center p-1'>
+        <DiReact size={180} color='#5ED4F3'/>
+        </div>
+        <div className='flex flex-col md:flex-row'> 
+        <div className='flex-1 text-black font-extrabold  text-center text-4xl px-10 md:py-2 rounded-lg m-1'>Why?</div>
+        <div className='flex-1 text-black font-extrabold  text-center text-4xl  px-10 md:py-2  rounded-lg m-1'>When?</div>
+        <div className='flex-1 text-black font-extrabold  text-center  text-4xl  px-10 md:py-2 rounded-lg m-1'>How?</div>
+        </div>
         </div>
         
-          <p className='text-sm md:text-lg font-medium pt-2 text-[#f1f1f1] justify-center'>
-            Let's find the best destination for you, With Us !!
-          </p>
+     
+      </div>
+      {/* Javacript */}
+      <div className='flex flex-col md:flex-row items-center justify-center'>
+        <div>
+        <div className='font-semibold text-lg'> But beforing using react, how much Javascript do you know?</div>
+         <div className='font-normal text-lg'>Watch these videos below and then come to learning React</div>
+         <div className='flex gap-4 flex-wrap py-2'>
+          <div className='flex-1 font-semibold'>1. Namaste Javascript Series<iframe  src="https://www.youtube.com/embed/ZvbzSrg0afE?si=gyI4dTTCEtVvd9nM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></div>
+          <div className='flex-1 font-semibold'>2. PedroTech  Javascript before React<iframe src="https://www.youtube.com/embed/m55PTVUrlnA?si=fARzkw0_LAbA6pPP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></div>
+         
+         </div>
+         <div className='flex gap-4 flex-wrap py-2'>
+          <div className='flex-1 font-semibold'>3. Clever Programmer-Javascript<iframe  src="https://www.youtube.com/embed/lI1ae4REbFM?si=-aSSoxS3ju1oHInk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></div>
+          <div className='flex-1 font-semibold'>4. DSA Javascript<iframe  src="https://www.youtube.com/embed/5mEwh4MfwB4?si=HbFG_Wllk4X_FHhT" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></div>
+         
+         </div>
         </div>
+        
+        </div>
+     
       </div>
     </div>
   );

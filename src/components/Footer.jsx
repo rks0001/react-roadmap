@@ -8,8 +8,8 @@ const Footer = () => {
     <div className='dark w-full h-full py-10 text-[#f1f1f1]'>
         <div className='w-10/12 h-full mx-auto flex flex-row'>
             <div className='flex-1 mr-10 '>
-            <div className='font-semibold text-lg'>TRAVELY</div>
-            <div className='text-xs md:w-8/12 py-2'>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+            <div className='font-semibold text-lg'>React Roadmap</div>
+            <div className='text-xs md:w-8/12 py-2'>Just ask these simple questions Why? When? and How?</div>
             <div className='flex flex-row gap-3 pb-4'>
             <AiFillFacebook/>
             <AiOutlineInstagram/>

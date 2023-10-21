@@ -1,26 +1,25 @@
-import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Homepage from './components/Homepage';
-import NotFound from './components/NotFound';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Destination from './pages/Destination';
-import Expedition from './pages/Expedition';
-import Review from './pages/Review';
-import FAQ from './pages/FAQ';
-import Timeline from './pages/Timeline';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ReactRoadmap from './pages/ReactRoadmap';
+import Navbar from '../src/components/Navbar'
+import Footer from '../src/components/Footer'
+import Homepage from '../src/components/Homepage'
+import NotFound from '../src/components/NotFound'
+import InterviewPrep from './pages/InterviewPrep';
+import VideoLibrary from './pages/VideoLibrary';
+import GithubRepo from './pages/GithubRepo';
+
 function App() {
   return (
-    <Router >
+    <Router>
       <Navbar/>
       <Routes>
-        <Route path="/" element={<Homepage/>}/>
-        <Route path="/destination" element={<Destination/>}/>
-        <Route path="/expedition" element={<Expedition/>}/>
-        <Route path="/timeline" element={<Timeline/>}/>
-        <Route path="/reviews" element={<Review/>}/>
-        <Route path="/faq" element={<FAQ/>}/>
-        <Route path="*" element={<NotFound/>}/>
+        <Route path="/" element={<Homepage/>} />
+        <Route path="/react-roadmap/*" element={<ReactRoadmap />} />
+        <Route path="/interview-prep" element={<InterviewPrep />} />
+        <Route path="/video-library" element={<VideoLibrary />} />
+        <Route path="/github-repos" element={<GithubRepo />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer/>
     </Router>
